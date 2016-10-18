@@ -15,6 +15,8 @@ namespace RockPaperScissors
             Console.WriteLine("Enter hand 2:");
             string hand2 = Console.ReadLine().ToLower();
             Console.WriteLine(CompareHands(hand1, hand2));
+
+            Console.ReadLine();
         }
 
         public static string CompareHands(string hand1, string hand2)
